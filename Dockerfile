@@ -3,5 +3,5 @@
 # cd dashboard
 # vim Dockerfile
 
-FROM gcr.io/google_containers/kubernetes-dashboard-amd64:v1.7.1
-MAINTAINER qiushida@buaa.edu.cn
+FROM quay.io/kubernetes-ingress-controller/nginx-ingress-controller:0.25.0
+MAINTAINER qianhu1
